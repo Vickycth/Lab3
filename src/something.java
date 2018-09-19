@@ -6,7 +6,7 @@ public class something {
 
     public static void main(String [] args){
         System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
-
+        System.out.print(countnnumber((urlToString("http://erdani.com/tdpl/hamlet.txt"))));
     }
     /**
      * Retrieve contents from a URL and return them as a string.
@@ -25,7 +25,11 @@ public class something {
         urlScanner.close();
         return contents;
     }
-    public static int count
+    public static int countnnumber(String a) {
+        int number = a.length();
+        return number;
+    }
+
 
 
 }
